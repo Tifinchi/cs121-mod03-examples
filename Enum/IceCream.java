@@ -28,6 +28,9 @@ public class IceCream
 		cone1 = Flavor.HUCKLEBERRY;
 		cone2 = Flavor.CHOCOLATE;
 
+		boolean result = Flavor.HUCKLEBERRY.ordinal() > Flavor.CHOCOLATE.ordinal();
+		System.out.printf("%n%n%s is greater than %s: %b%n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result); 
+
 		System.out.println("cone1 value: " + cone1);
 		System.out.println("cone1 ordinal: " + cone1.ordinal());
 		System.out.println("cone1 name: " + cone1.name());
